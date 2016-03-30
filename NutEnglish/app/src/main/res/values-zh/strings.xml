@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">坚果英语</string>
+    <string name="action_settings">设置</string>
+    <string name="enter">点击进入</string>
+    <string name="explain">单词解释</string>
+    <string name="finish">完成</string>
+    <string name="game">游戏</string>
+    <string name="highest_record">最高分</string>
+    <string name="hint">输入</string>
+    <string name="hint_explain">请输入单词解释</string>
+    <string name="hint_input_chinese">输入中文</string>
+    <string name="hint_input_english">输入英文翻译</string>
+    <string name="input_chinese">中文</string>
+    <string name="input_english">英文</string>
+    <string name="lean">学习</string>
+    <string name="more">更多</string>
+    <string name="ownership">本应用归坚果工作室所有</string>
+    <string name="search">搜索</string>
+    <string name="share_text">#坚果英语#我学会了单词</string>
+    <string name="share_text2">#坚果英语#然你更快更有趣的学会专业词汇！</string>
+    <string name="sina">新浪微博</string>
+    <string name="start_game">开始游戏</string>
+    <string name="title_activity_addword"></string>
+    <string name="welcome">欢迎！</string>
+    <string name="website">官方网站</string>
+    <string name="word_explain">单词解释</string>
+    <string name="your_score">你的分数</string>
+</resources>

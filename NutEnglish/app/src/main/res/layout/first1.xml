@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ImageView
+		android:layout_height="48dp"
+		android:layout_width="48dp"
+		android:layout_alignParentRight="true"
+		android:padding="8dp"
+		android:src="@drawable/exit"
+		android:id="@+id/tab1btn1"
+		android:alpha="0.5"/>
+
+	<View
+		android:background="?android:attr/dividerHorizontal"
+		android:layout_height="match_parent"
+		android:layout_width="1dp"
+		android:layout_below="@id/tab1btn1"/>
+
+</RelativeLayout>
+

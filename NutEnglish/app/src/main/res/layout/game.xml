@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@color/back_color">
+	<ProgressBar
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/gameProgressBar1"
+		android:layout_marginTop="@dimen/topbar_margintop"
+		android:background="@color/main_color"/>
+
+	<TextView
+		android:layout_height="60dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="60dp"
+		android:text="0"
+		android:layout_below="@id/gameProgressBar1"
+		android:id="@+id/gameTextView1"
+		android:gravity="center"
+		android:background="@color/color2"
+		android:layout_margin="4dp"
+		android:layout_centerInParent="true"
+		android:textStyle="bold"
+		android:textSize="34sp"/>
+
+	<TextView
+		android:layout_height="80dp"
+		android:layout_width="match_parent"
+		android:text="Button"
+		android:layout_below="@id/gameTextView1"
+		android:layout_centerInParent="true"
+		android:id="@+id/gamemainbutton"
+		android:textSize="38sp"
+		android:gravity="center"
+		android:layout_margin="4dp"
+		android:background="@color/color2"
+		android:textColor="@color/uini_button_color"
+		android:textStyle="bold"/>
+
+	<TextView
+		android:layout_height="50dp"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="50dp"
+		android:text="0"
+		android:layout_below="@id/gamemainbutton"
+		android:id="@+id/gameWinCounter"
+		android:gravity="center"
+		android:background="@color/color5"
+		android:layout_alignParentRight="true"
+		android:layout_margin="4dp"
+		android:textSize="29sp"/>
+
+	<TextView
+		android:layout_height="50dp"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:text="@string/your_score"
+		android:layout_toLeftOf="@id/gameWinCounter"
+		android:layout_toStartOf="@id/gameWinCounter"
+		android:layout_below="@id/gamemainbutton"
+		android:layout_centerInParent="true"
+		android:gravity="center"
+		android:background="@color/color5"
+		android:layout_margin="4dp"
+		android:textSize="20sp"
+		android:textColor="@color/text2"/>
+
+	<LinearLayout
+		android:layout_height="300dp"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_margin="4dp"
+		android:layout_alignParentBottom="true"
+		android:layout_below="@id/gameWinCounter">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<Button
+				android:layout_height="match_parent"
+				android:layout_width="0dp"
+				android:layout_weight="1.0"
+				android:id="@+id/gameButton1"
+				android:textSize="24sp"
+				android:layout_margin="8dp"
+				android:background="@drawable/main_img_shape" />
+
+			<Button
+				android:layout_height="match_parent"
+				android:layout_width="0dp"
+				android:layout_weight="1.0"
+				android:id="@+id/gameButton2"
+				android:textSize="24sp"
+				android:layout_margin="8dp"
+				android:background="@drawable/main_img_shape" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<Button
+				android:layout_height="match_parent"
+				android:layout_width="0dp"
+				android:layout_weight="1.0"
+				android:textSize="24sp"
+				android:id="@+id/gameButton3"
+				android:background="@drawable/main_img_shape"
+				android:layout_margin="8dp" />
+
+			<Button
+				android:layout_height="match_parent"
+				android:layout_width="0dp"
+				android:layout_weight="1.0"
+				android:textSize="24sp"
+				android:id="@+id/gameButton4"
+				android:background="@drawable/main_img_shape"
+				android:layout_margin="8dp" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

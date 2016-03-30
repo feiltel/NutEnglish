@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/topbar_height"
+    android:elevation="2dp"
+    android:background="@color/main_color"
+    android:id="@+id/rl_top">
+    <LinearLayout
+       android:layout_marginTop="@dimen/topbar_margintop"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:background="@drawable/mybtn_press_style"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:padding="10dp"
+            android:id="@+id/im_top_back"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:layout_gravity="center" />
+        <View
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="1dp"
+            android:background="#a1303030"
+            android:layout_height="fill_parent"/>
+        <EditText
+            android:focusable="true"
+            android:paddingLeft="16dp"
+            android:singleLine="true"
+            android:id="@+id/et_putword"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_top_shape"
+            android:hint="输入搜索"
+            android:textColorHint="@color/material_grey_50"
+            android:textColor="@color/accent_material_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

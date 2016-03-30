@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="topbar_bg_color">#4e6ba6</color>
+    <color name="title_color">#4e6ba6</color>
+    <color name="back_color">#ceb7a8</color>
+    <color name="color_unit">#EF84D1D9</color>
+	<color name="text2">#555555</color>
+
+	<color name="bottom_color">#ffb6c2cb</color>
+	<color name="bg_color">#d4e2ed</color>
+	<color name="main_color">#46529e</color>
+	<color name="statusBar_color">#20000000</color>
+	<color name="navigationBar_color">#46529e</color>
+	<color name="button_color">#3a7587</color>
+	<color name="uini_button_color">#de000000</color>
+
+	<color name="color1">#21263a</color>
+	<color name="color2">#d2dfc5</color>
+	<color name="color3">#203236</color>
+	<color name="color4">#3a7587</color>
+	<color name="color5">#3a7587</color>
+	<color name="color6">#453737</color>
+	<color name="color7">#f8c6cf</color>
+	<color name="color8">#d65b53</color>
+	<color name="color9">#cfe1f5</color>
+	<color name="mcolor1">#394672</color>
+	<color name="mcolor2">#fa4a8b</color>
+	<color name="mcolor3">#44403f</color>
+	<color name="mcolor4">#8fa99c</color>
+	<color name="mcolor5">#ee7970</color>
+	<color name="mcolor6">#d24442</color>
+	<color name="mcolor7">#7abeeb</color>
+	<color name="mcolor8">#68423a</color>
+	<color name="mcolor9">#7bcad1</color>
+
+</resources>

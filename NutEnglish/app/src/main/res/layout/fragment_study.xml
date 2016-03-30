@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainLinearLayout1"
+    android:gravity="center_horizontal"
+    android:background="@color/bg_color">
+    <GridView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:columnWidth="48dp"
+        android:numColumns="6"
+        android:id="@+id/myWordTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:clickable="true"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:padding="8dp"
+            android:id="@+id/drawImageView1"
+            android:src="@drawable/image_3"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="0dp"
+            android:text="每日一句"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/text2"/>
+        <ImageView
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:padding="8dp"
+            android:id="@+id/drawFlashImg"
+            android:src="@drawable/image_5" />
+    </LinearLayout>
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="24sp"
+            android:id="@+id/drawTextView1"
+            android:textColor="@color/primary_text_default_material_dark"/>
+        <TextView
+            android:lineSpacingExtra="8dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/drawTextViewN"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/primary_text_default_material_light" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
+

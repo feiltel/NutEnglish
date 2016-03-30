@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_top"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/topbar_height"
+    android:background="@color/main_color">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/topbar_margintop"
+        android:orientation="horizontal">
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/im_top_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:src="@drawable/back"/>
+        <ImageView
+            android:padding="6dp"
+            android:id="@+id/im_top_logo"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:src="@drawable/nutenglish" />
+        <TextView
+            android:id="@+id/tv_top_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="56dp"
+            android:layout_gravity="left"
+            android:gravity="center_vertical"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <ImageView
+
+            android:id="@+id/im_top_search"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:src="@drawable/search" />
+        <ImageView
+
+            android:id="@+id/im_top_menu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:src="@drawable/menu" />
+    </LinearLayout>
+</LinearLayout>

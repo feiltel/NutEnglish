@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar.TranslucentDecor">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@style/AppThemeAnim</item>
+    </style>
+    <style name="AppThemeAnim" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/act_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/act_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/act_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/act_close_exit</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

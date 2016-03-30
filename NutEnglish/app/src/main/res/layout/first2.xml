@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ImageView
+		android:layout_height="48dp"
+		android:layout_width="48dp"
+		android:layout_alignParentRight="true"
+		android:padding="8dp"
+		android:src="@drawable/exit"
+		android:id="@+id/tab2btn1"
+		android:alpha="0.5"/>
+
+	<TextView
+		android:layout_height="50dp"
+		android:layout_width="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="67dp"
+		android:id="@+id/first2Button1"
+		android:gravity="center"
+		android:text="@string/enter"
+		android:textSize="22sp"
+		android:alpha="0.9"
+		android:textColor="@color/text2"
+		android:padding="8dp"
+		android:background="@color/color5"/>
+
+</RelativeLayout>
+

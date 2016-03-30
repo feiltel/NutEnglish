@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    　　
+    <item  android:drawable="?android:attr/selectable" android:state_pressed="true" />
+
+</selector>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="?android:attr/selectableItemBackgroundBorderless"
+    android:colorControlHighlight="@color/back_color" />
+</selector>-->

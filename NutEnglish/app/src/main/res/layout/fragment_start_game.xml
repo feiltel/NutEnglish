@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/bg_color"
+    android:layout_gravity="center"
+    android:padding="8dp">
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:id="@+id/stargameTextView1"
+        android:gravity="center"
+        android:text="@string/highest_record"
+        android:textSize="28sp"
+        android:background="@color/color6"
+        android:layout_margin="8dp"/>
+    <Button
+        android:layout_height="100dp"
+        android:layout_width="200dp"
+        android:id="@+id/startgame"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/start_game"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_below="@id/stargameTextView1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/stargameButton1"
+        android:textSize="55sp"
+        android:background="@color/color5"
+        android:layout_margin="8dp"/>
+
+    <ImageView
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:layout_below="@id/stargameButton1"
+        android:gravity="center"
+        android:src="@drawable/yd_share_press"
+        android:padding="4dp"
+        android:id="@+id/stargameshare"
+        android:layout_centerInParent="true"
+        android:background="@color/color4"
+        android:layout_margin="8dp"/>
+
+</RelativeLayout>
+
